@@ -1914,11 +1914,11 @@
 /fx/7/par 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 /fx/8 LIM
 /fx/8/par 3.0 -3.0 0 3 0.05 662 ON OFF 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/outputs/main/01 56 POST OFF
+/outputs/main/01 11 POST OFF
 /outputs/main/01/delay OFF   0.3
-/outputs/main/02 56 POST OFF
+/outputs/main/02 11 POST OFF
 /outputs/main/02/delay OFF   0.3
-/outputs/main/03 56 POST OFF
+/outputs/main/03 11 POST OFF
 /outputs/main/03/delay OFF   0.3
 /outputs/main/04 9 POST OFF
 /outputs/main/04/delay OFF   0.3
