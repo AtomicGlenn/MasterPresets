@@ -34,7 +34,7 @@
 /config/amixenable ON ON
 /config/dp48 %0000 0 AESA
 /config/dp48/assign 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/config/dp48/link 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0
+/config/dp48/link 0 0 1 1 0 0 0 1 0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 1
 /config/dp48/grpname "" "" "" "" "" "" "" "" "" "" "" ""
 /ch/01/config "Mic 1" 1 GN 1
 /ch/01/delay OFF   0.3
@@ -70,7 +70,7 @@
 /ch/01/automix X  +0.0
 /ch/02/config "Mic 2" 1 GN 2
 /ch/02/delay OFF   0.3
-/ch/02/preamp +0.0 OFF OFF 24 101
+/ch/02/preamp +0.0 OFF ON 24  62
 /ch/02/gate ON EXP4 -40.5 20.0 10  200 2050 0
 /ch/02/gate/filter OFF 3.0 990.9
 /ch/02/dyn ON COMP PEAK LOG -30.0 4.0 1 5.00 10 10.0  151 POST 0 100 OFF
@@ -102,7 +102,7 @@
 /ch/02/automix X  +0.0
 /ch/03/config "Mic 3" 1 GN 3
 /ch/03/delay OFF   0.3
-/ch/03/preamp +0.0 OFF OFF 24 101
+/ch/03/preamp +0.0 OFF ON 24  62
 /ch/03/gate ON EXP4 -40.5 20.0 10  200 2050 0
 /ch/03/gate/filter OFF 3.0 990.9
 /ch/03/dyn ON COMP PEAK LOG -30.0 4.0 1 5.00 10 10.0  151 POST 0 100 OFF
@@ -134,7 +134,7 @@
 /ch/03/automix X  +0.0
 /ch/04/config "Mic 4" 1 GN 4
 /ch/04/delay OFF   0.3
-/ch/04/preamp +0.0 OFF OFF 24 101
+/ch/04/preamp +0.0 OFF ON 24  62
 /ch/04/gate ON EXP4 -40.5 20.0 10  200 2050 0
 /ch/04/gate/filter OFF 3.0 990.9
 /ch/04/dyn ON COMP PEAK LOG -30.0 4.0 1 5.00 10 10.0  151 POST 0 100 OFF
@@ -166,7 +166,7 @@
 /ch/04/automix X  +0.0
 /ch/05/config "Mic 5" 1 GN 5
 /ch/05/delay OFF   0.3
-/ch/05/preamp +0.0 OFF OFF 24 101
+/ch/05/preamp +0.0 OFF ON 24  62
 /ch/05/gate ON EXP4 -40.5 20.0 10  200 2050 0
 /ch/05/gate/filter OFF 3.0 990.9
 /ch/05/dyn ON COMP PEAK LOG -30.0 4.0 1 5.00 10 10.0  151 POST 0 100 OFF
@@ -198,7 +198,7 @@
 /ch/05/automix X  +0.0
 /ch/06/config "Mic 6" 1 GN 6
 /ch/06/delay OFF   0.3
-/ch/06/preamp +0.0 OFF OFF 24 101
+/ch/06/preamp +0.0 OFF ON 24  62
 /ch/06/gate ON EXP4 -40.5 20.0 10  200 2050 0
 /ch/06/gate/filter OFF 3.0 990.9
 /ch/06/dyn ON COMP PEAK LOG -30.0 4.0 1 5.00 10 10.0  151 POST 0 100 OFF
@@ -1603,7 +1603,7 @@
 /bus/08/mix/04 ON   -oo
 /bus/08/mix/05 ON   -oo +0 POST 0
 /bus/08/mix/06 ON   -oo
-/bus/08/grp %00000000 %000000
+/bus/08/grp %01000000 %000000
 /bus/09/config "M-1 Remote 1" 71 CY
 /bus/09/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
 /bus/09/dyn/filter OFF 3.0 990.9
@@ -1843,7 +1843,7 @@
 /main/st/config "" 66 WH
 /main/st/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /main/st/dyn/filter OFF 3.0 990.9
-/main/st/insert OFF PRE OFF
+/main/st/insert ON POST FX8L
 /main/st/eq OFF
 /main/st/eq/1 LShv 79.6 +0.00 2.0
 /main/st/eq/2 PEQ 158.9 +0.00 2.0
@@ -1912,8 +1912,8 @@
 /fx/6/par 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
 /fx/7 GEQ2
 /fx/7/par 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
-/fx/8 GEQ
-/fx/8/par 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/fx/8 LIM
+/fx/8/par 3.0 -3.0 0 3 0.05 662 ON OFF 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 /outputs/main/01 56 POST OFF
 /outputs/main/01/delay OFF   0.3
 /outputs/main/02 56 POST OFF
