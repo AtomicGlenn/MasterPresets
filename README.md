@@ -131,6 +131,7 @@ Not yet started.
 X32 compact:
 - EQ minder aggresief (toegepast in v2.0)
 - MTX 1&6 op DCA faders
+- hooi
 
 x32 Rack:
 
@@ -145,3 +146,5 @@ Deze bewaren we op Google Drive:
 
 - **Productie Configs**: Backups van de configuratie aan het eind van de productie om toekomstige producties voor dezelfde klant sneller op te zetten.
 - **Technische Configs**: Backups van configs op gedeployede apparatuur, bvb geïnstalleerde routers.
+
+check 1
